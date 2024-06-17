@@ -1,4 +1,4 @@
-package g-sorter
+package gsorter
 
 func Sort[T int | uint | int32 | int64 | uint32 | uint64 | float32](numbers []T) {
 	nLen := len(numbers)
